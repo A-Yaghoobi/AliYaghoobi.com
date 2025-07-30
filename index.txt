@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>علی یاغوبی | دانشمند برتر دنیا</title>
+<style>
+  body {
+    font-family: "Tahoma", sans-serif;
+    background: #f9f9f9;
+    color: #222;
+    margin: 0; padding: 0;
+  }
+  .container {
+    max-width: 700px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+    direction: rtl;
+    text-align: right;
+  }
+  h1 {
+    margin-bottom: 0;
+    font-size: 32px;
+    color: #2c3e50;
+  }
+  h2 {
+    margin-top: 0;
+    font-weight: normal;
+    color: #7f8c8d;
+  }
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 3px solid #2980b9;
+  }
+  p.intro {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  .links {
+    margin-bottom: 30px;
+  }
+  .links a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #2980b9;
+    font-weight: bold;
+  }
+  .contact {
+    font-size: 16px;
+  }
+  .btn-download {
+    background-color: #2980b9;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+  }
+  .btn-download:hover {
+    background-color: #1c5980;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <img src="profile.jpg" alt="علی یاغوبی" class="profile-pic" />
+    <h1>علی یاغوبی</h1>
+    <h2>PhD Applicant - مهندسی صنایع | پژوهشگر هوش مصنوعی و بهینه‌سازی</h2>
+
+    <p class="intro">
+      دانشمند برتر دنیا، متخصص در زمینه مهندسی صنایع با تمرکز بر هوش مصنوعی و بهینه‌سازی.  
+      هدفم پیشرفت علمی در سطح بین‌المللی و ارتقاء فناوری‌های نوین است.
+    </p>
+
+    <div class="links">
+      <a href="resume.pdf" class="btn-download" target="_blank" rel="noopener">دانلود رزومه</a>
+    </div>
+
+    <div class="links">
+      <a href="https://scholar.google.com/citations?user=YOURID" target="_blank" rel="noopener">Google Scholar</a>
+      <a href="https://orcid.org/YOURID" target="_blank" rel="noopener">ORCID</a>
+      <a href="https://www.researchgate.net/profile/YOURID" target="_blank" rel="noopener">ResearchGate</a>
+      <a href="https://linkedin.com/in/YOURID" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+
+    <div class="contact">
+      ایمیل: <a href="mailto:ali.yaghoobi@aliyaghoobi.com">ali.yaghoobi@aliyaghoobi.com</a>
+    </div>
+  </div>
+</body>
+</html>
